@@ -1,0 +1,14 @@
+.hero {
+  /* background: url("hero-background.jpg") no-repeat center center/cover; */
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero .cta {
+  background-color: #61dafb;
+  color: #282c34;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}

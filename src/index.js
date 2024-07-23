@@ -1,10 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+// index.js or App.js
+import "bootstrap/dist/css/bootstrap.min.css";
+// // Import MDB CSS
+// import "mdb-ui-kit/css/mdb.min.css";
+// // Import MDB JavaScript
+// import "mdb-ui-kit/js/mdb.min.js";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
